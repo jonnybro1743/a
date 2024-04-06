@@ -1,0 +1,91 @@
+/* style.css */
+body {
+    font-family: 'Arial', sans-serif;
+  background-image: url("../image/login.jpg");
+  background-size: cover;
+    margin: 0;
+    padding: 0;
+  
+    height: 100vh;
+}
+error{
+    background: #474444;color: wheat;height: 80px;width: 300px;
+}
+.error {
+    background: #F2DEDE;
+    color: #A94442;
+    padding: 10px;
+    width: 95%;
+    border-radius: 5px;
+    margin: 20px auto;
+ }
+ .message{
+    background: #03f724;
+    color: #f7f2f1;
+    padding: 10px;
+    width: 95%;
+    border-radius: 5px;
+    margin: 20px auto;  
+ }
+.content {
+
+    background-color: rgba(11, 9, 9, 0.8);
+ margin: auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 20px;
+    width: 300px;
+    height: 350px;
+    margin-top: 25VH;
+}
+
+.h1 {
+    text-align: center;
+    color:rgb(0, 255, 183);
+}
+
+.content {
+    text-align: center;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    border: 1px solid #444343;
+    background: #000;color: #e7dcdc;
+    border-radius: 4px;
+}
+
+.forgot {
+    display: block;
+    margin: 10px 0;
+    color: #ebe5e5;
+    text-decoration: none;
+}
+
+.continue {
+    background-color:  rgb(0, 255, 183);
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    margin: 10px 0;
+}
+
+.continue:hover {
+    background-color: rgb(113, 179, 237);
+}
+
+.newaccount {
+    margin-top: 15px;
+    color: #e7dcdc;
+}
+
+.a {
+    color: #4CAF50;
+    text-decoration: none;
+}
