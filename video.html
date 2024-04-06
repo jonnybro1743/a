@@ -68,7 +68,7 @@ const movieId = params.get("movieId");
         console.log(`Video Key: ${videoKey}, Site: ${videoSite}`);
         
         // Example: Embedding a YouTube video
-        const embedCode = `<iframe width="98vh" height="85vh" MARGIN=AUTO; src="https://www.youtube.com/embed/${videoKey}" frameborder="0" allowfullscreen></iframe>`;
+        const embedCode = `<iframe width="98%" height="85%" MARGIN=AUTO; src="https://www.youtube.com/embed/${videoKey}" frameborder="0" allowfullscreen></iframe>`;
         
         // Assuming there's an element with the ID 'videoContainer' in your HTML
         document.getElementById('videoContainer').innerHTML = embedCode;
